@@ -1,5 +1,3 @@
-from uaclient.security_status import get_livepatch_fixed_cves
-
 
 def roots(a, b, c):
     val1 = (b * b)
