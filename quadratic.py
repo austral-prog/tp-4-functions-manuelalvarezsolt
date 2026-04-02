@@ -1,4 +1,3 @@
-
 def roots(a, b, c):
     val1 = (b * b)
     sinraiz = (val1 - 4 * a * c)
@@ -20,7 +19,8 @@ def roots(a, b, c):
 
 
 def value_y(a, b, c, x):
-    valor = a * (x ** 2)
+    valor = (a * x)
+    valor1 = valor ** 2
     valor2 = (b * x)
     valor3 = valor1 + valor2 + c
     return(valor3)
@@ -35,7 +35,7 @@ def to_string(a, b, c):
         return (f"f(x) = {c}")
     elif c == 0 and a != 0 and b != 0:
         return (f"f(x) = {b} * X")
-    elif c == 0 and b == 0 and a != 0:
+    elif c == 0 and b == 0 and c != 0:
         return (f"f(x) = {a} * X^2")
     elif c == 0 and a == 0 and b != 0:
         return(f"f(x) = {b} * X")
