@@ -1,4 +1,4 @@
-# Replace the "ANSWER HERE" for your answer
+
 from uaclient.security_status import get_livepatch_fixed_cves
 
 
