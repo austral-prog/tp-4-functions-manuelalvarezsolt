@@ -37,7 +37,7 @@ def to_string(a, b, c):
         return (f"f(x) = {c}")
     elif c == 0 and a != 0 and b != 0:
         return (f"f(x) = {b} * X")
-    elif c == 0 and b == 0 and c != 0:
+    elif c == 0 and b == 0 and a != 0:
         return (f"f(x) = {a} * X^2")
     elif c == 0 and a == 0 and b != 0:
         return(f"f(x) = {b} * X")
