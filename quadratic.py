@@ -22,8 +22,7 @@ def roots(a, b, c):
 
 
 def value_y(a, b, c, x):
-    valor = (a * x)
-    valor1 = valor ** 2
+    valor = a * (x ** 2)
     valor2 = (b * x)
     valor3 = valor1 + valor2 + c
     return(valor3)
